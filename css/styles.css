@@ -67,3 +67,8 @@ text-decoration: underline;
 position: relative;
 top: 60px;
 }
+
+.icons{
+  color: inherit;
+  padding-right: 10px;
+}
