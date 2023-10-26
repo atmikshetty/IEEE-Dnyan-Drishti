@@ -1,6 +1,5 @@
 .timeline {
     background-color: #000;
-  
     overflow-x: hidden;
   }
   
@@ -45,7 +44,6 @@
   .ag-format-container {
     width: 1160px;
     margin: 0 auto;
-  
     position: relative;
   }
   
@@ -54,7 +52,6 @@
   }
   .ag-timeline_title-box {
     padding: 0 0 30px;
-  
     text-align: center;
   }
   .ag-timeline_tagline {

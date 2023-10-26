@@ -64,9 +64,7 @@
       function fnUpdateFrame() {
         agFlag || requestAnimationFrame(fnUpdateWindow);
         agFlag = true;
-      }
-  
-  
+      }  
     });
   })(jQuery);
   
