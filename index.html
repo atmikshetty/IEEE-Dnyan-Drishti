@@ -9,6 +9,7 @@
     <title>Dnyan Drishti </title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/card.css" />
+    <link rel="stylesheet" href="css/countdowntimer.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
@@ -30,6 +31,7 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -55,7 +57,6 @@
         </div>
     </nav>
     <!-- Home -->
-
     <section id="home">
         <div class="text-center">
             <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" width="200">
@@ -63,9 +64,37 @@
                 style="height: 44px; width: 312px">
             </div>
             <button>
-                placeholder button
+                placeholder devfolio button
             </button>
         </div>
+    </section>
+    <!-- Countdown timer -->
+
+    <section id="countdowntimer">
+        <main class="tcontainer">
+            <div class="counter-wrapper">
+              <div class="counter">
+                <div class="count">
+                  <div class="days sec">
+                    <h2 id="days">00</h2>
+                    <p>Days</p>
+                  </div>
+                  <div class="hours sec">
+                    <h2 id="hours">00</h2>
+                    <p>Hours</p>
+                  </div>
+                  <div class="minutes sec">
+                    <h2 id="minutes">00</h2>
+                    <p>Minutes</p>
+                  </div>
+                  <div class="seconds sec">
+                    <h2 id="seconds">00</h2>
+                    <p>Seconds</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
     </section>
     <!-- About -->
     <section id="about">
@@ -247,7 +276,7 @@
                 <!-- FAQ end -->
             </div>
     </section>
-
+    <script src="js/countdowntimer.js"></script>
 </body>
 
 <footer class="bottom-container ">
