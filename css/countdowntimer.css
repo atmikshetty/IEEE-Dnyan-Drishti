@@ -16,7 +16,6 @@
   }
   
   .countdownbody {
-
     align-items: center;
     background-color: #ffd54f;
     display: flex;
@@ -51,21 +50,11 @@
     text-transform: uppercase;
   }
   
-
   li span {
     display: block;
     font-size: 4.5rem;
   }
   
-  .emoji {
-    display: none;
-    padding: 1rem;
-  }
-  
-  .emoji span {
-    font-size: 4rem;
-    padding: 0 .5rem;
-  }
   
   @media all and (max-width: 768px) {
     h1 {
