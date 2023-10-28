@@ -44,7 +44,7 @@
   
   #timeline li, .countdownbody li {
     display: inline-block;
-    font-size: 1.5em;
+    /* font-size: 2.5vw; */
     list-style-type: none;
     padding: 1em;
     text-transform: uppercase;
