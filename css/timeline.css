@@ -48,7 +48,7 @@
   }
   
   .ag-timeline-block {
-    padding: 300px 0;
+    padding: 40px 0;
   }
   .ag-timeline_title-box {
     padding: 0 0 30px;
@@ -126,9 +126,9 @@
     margin: 0 -28px 0 14px;
   }
   .ag-timeline-card_point {
-    height: 50px;
+    height: 55px;
     line-height: 50px;
-    width: 50px;
+    width: 55px;
     border: 3px solid #FF0;
     background-color: #1d1d1b;
   
