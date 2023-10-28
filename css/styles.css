@@ -59,6 +59,9 @@
   padding-right: 50px;
 }
 
+.about h2 {
+  text-align: center;
+}
 
 .footer-link{
     margin: 0 90px;
