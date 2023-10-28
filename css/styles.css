@@ -161,7 +161,7 @@ top: 60px;
   width: 100%;
   color: white;
   text-align: left;
-  background: rgba(30, 48, 86, 0.8);
+  background: #282828;
   -webkit-box-shadow: 0px -50px 140px 0px rgba(69, 81, 100, 0.1);
   box-shadow: 0px -50px 140px 0px rgba(69, 81, 100, 0.1);
   border-radius: 10px 10px 0 0;
@@ -189,7 +189,7 @@ top: 60px;
 }
 
 #faq .accordion .card .card-header h5 button.collapsed {
-  background: rgba(30, 48, 86, 0.8);
+  background: #282828;
   border-radius: 10px;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -204,7 +204,7 @@ top: 60px;
 }
 
 #faq .accordion .card .card-body {
-  background-color: rgba(30, 48, 86, 0.8);
+  background-color: #282828;
   -webkit-box-shadow: 0px 15px 140px 0px rgba(69, 81, 100, 0.1);
   box-shadow: 0px 15px 140px 0px rgba(69, 81, 100, 0.1);
   border-radius: 0 0 10px 10px;
