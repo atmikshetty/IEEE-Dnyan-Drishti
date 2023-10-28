@@ -139,7 +139,7 @@ top: 60px;
 }
 
 #faq .accordion .card .card-header {
-  border: none;
+  border: 1px solid ;
   border-radius: 10px;
   padding: 0;
 }
@@ -159,7 +159,7 @@ top: 60px;
   width: 100%;
   color: rgba(30, 48, 86, 0.8);
   text-align: left;
-  background: #fff;
+  background: #000;
   -webkit-box-shadow: 0px -50px 140px 0px rgba(69, 81, 100, 0.1);
   box-shadow: 0px -50px 140px 0px rgba(69, 81, 100, 0.1);
   border-radius: 10px 10px 0 0;
@@ -196,11 +196,13 @@ top: 60px;
 
 #faq .accordion .card .card-header h5 button[aria-expanded="true"]:after {
   content: '\f068';
-  color: #fff;
+  color: #000;
   background-image: -webkit-linear-gradient(-180deg, #5e7eff 0%, #ff5f74 30%, #a85fff 100%);
 }
 
 #faq .accordion .card .card-body {
+  background-color: #000;
+  border: 1px solid #fff;
   -webkit-box-shadow: 0px 15px 140px 0px rgba(69, 81, 100, 0.1);
   box-shadow: 0px 15px 140px 0px rgba(69, 81, 100, 0.1);
   border-radius: 0 0 10px 10px;
