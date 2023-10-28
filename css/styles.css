@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-
 }
 /* 
 .wrapper {
@@ -223,3 +222,19 @@ footer {
   background-color: #282828;
   color: whitesmoke;
 }
+
+#prizes, #prizes h2, #rules, #rules h2, #judges, #judges h2 {
+  background-color: #ffd54f;
+  margin-bottom: 0;
+}
+
+#home, #problems, #problems h2, #sponsors, #sponsors h2 {
+  background-color: #000;
+  margin-bottom: 0;
+  color: #ff0;
+}
+
+.nav.navbar-nav.navbar-right li a {
+  color: blue;
+}
+
