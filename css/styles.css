@@ -176,12 +176,12 @@ top: 60px;
   width: 20px;
   height: 20px;
   background-color: transparent;
-  color: yellow;
+  color: #ff0;
   text-align: center;
-  border: 1px solid yellow;
+  border: 1px solid #ff0;
   border-radius: 50%;
   line-height: 100%;
-  content: '\f067';
+  content: "+";
   font-size: 10px;
   line-height: 18px;
   font-family: "Font Awesome 5 Free";
@@ -198,9 +198,9 @@ top: 60px;
 }
 
 #faq .accordion .card .card-header h5 button[aria-expanded="true"]:after {
-  content: '\f068';
-  color: rgba(30, 48, 86, 0.8);
-  background-image: -webkit-linear-gradient(-180deg, #5e7eff 0%, #ff5f74 30%, #a85fff 100%);
+  content: "-";
+  color: #ff0;
+  /* background-image: -webkit-linear-gradient(-180deg, #5e7eff 0%, #ff5f74 30%, #a85fff 100%); */
 }
 
 #faq .accordion .card .card-body {
