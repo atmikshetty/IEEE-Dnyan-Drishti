@@ -47,6 +47,9 @@
   border-bottom: 1px solid #ddd !important;
 } */
 
+.nav-item {
+  width: fit-content;
+}
 
 .button-container {
   display: flex;
@@ -96,55 +99,56 @@ top: 60px;
 
 /* FAQs */
 
-h1, h2, h3, h4, h5, h6 {
-  color: #ff008b;
+#faq {
+  background-color: #000;
 }
-section {
-  padding: 60px;
+
+#faq h1, h2, h3, h4, h5, h6 {
+  color: #ff0;
 }
-a, a:hover, a:focus, a:active {
+
+#faq a, #faq a:hover, #faq a:focus, #faq a:active {
   text-decoration: none;
   outline: none;
 }
-ul {
+#faq ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.faq {
+#faq {
   padding: 120px 0 90px;
-  background: #f7fbff;
   min-height: 100vh;
 }
 
-.faq .section-title {
+#faq .section-title {
   margin-bottom: 54px;
 }
 
-.faq .section-title h2 {
+#faq .section-title h2 {
   margin-bottom: 22px;
 }
 
-.faq .accordion .card {
+#faq .accordion .card {
   border: none;
   margin-bottom: 30px;
 }
 
-.faq .accordion .card:not(:first-of-type) .card-header:first-child {
+#faq .accordion .card:not(:first-of-type) .card-header:first-child {
   border-radius: 10px;
 }
 
-.faq .accordion .card .card-header {
+#faq .accordion .card .card-header {
   border: none;
   border-radius: 10px;
   padding: 0;
 }
 
-.faq .accordion .card .card-header h5 {
+#faq .accordion .card .card-header h5 {
   padding: 0;
 }
 
-.faq .accordion .card .card-header h5 button {
+#faq .accordion .card .card-header h5 button {
   color: #1e3056;
   font-size: 18px;
   font-weight: 500;
@@ -162,7 +166,7 @@ ul {
   position: relative;
 }
 
-.faq .accordion .card .card-header h5 button:after {
+#faq .accordion .card .card-header h5 button:after {
   position: absolute;
   left: 30px;
   top: 50%;
@@ -170,9 +174,9 @@ ul {
   width: 20px;
   height: 20px;
   background-color: transparent;
-  color: #ff5f74;
+  color: yellow;
   text-align: center;
-  border: 1px solid #ff5f74;
+  border: 1px solid yellow;
   border-radius: 50%;
   line-height: 100%;
   content: '\f067';
@@ -182,21 +186,21 @@ ul {
   font-weight: 900;
 }
 
-.faq .accordion .card .card-header h5 button.collapsed {
-  background: #fff;
+#faq .accordion .card .card-header h5 button.collapsed {
+  background: #000;
   border-radius: 10px;
   -webkit-box-shadow: none;
   box-shadow: none;
-  border: 1px solid rgba(97, 125, 255, 0.2);
+  border: 1px solid #fff;
 }
 
-.faq .accordion .card .card-header h5 button[aria-expanded="true"]:after {
+#faq .accordion .card .card-header h5 button[aria-expanded="true"]:after {
   content: '\f068';
   color: #fff;
   background-image: -webkit-linear-gradient(-180deg, #5e7eff 0%, #ff5f74 30%, #a85fff 100%);
 }
 
-.faq .accordion .card .card-body {
+#faq .accordion .card .card-body {
   -webkit-box-shadow: 0px 15px 140px 0px rgba(69, 81, 100, 0.1);
   box-shadow: 0px 15px 140px 0px rgba(69, 81, 100, 0.1);
   border-radius: 0 0 10px 10px;
