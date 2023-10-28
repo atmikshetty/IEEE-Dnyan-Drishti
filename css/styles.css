@@ -75,3 +75,6 @@ top: 60px;
   padding-right: 10px;
 }
 
+.navbar-item{
+  display: block;
+}
