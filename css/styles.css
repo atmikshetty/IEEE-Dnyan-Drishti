@@ -77,6 +77,9 @@
     font-weight: bold;
     font-size: 120%;
 }
+.phonecolor {
+color: #ff0;
+}
   
 .footer-link:hover{
 text-decoration: underline; 
@@ -215,4 +218,8 @@ top: 60px;
   padding-bottom: 23px;
   color: white;
   line-height: 30px;
+}
+footer {
+  background-color: #282828;
+  color: whitesmoke;
 }
