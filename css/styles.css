@@ -62,9 +62,6 @@
   text-align: justify;
   padding-left: 50px;
   padding-right: 50px;
-}
-
-.about h2 {
   text-align: center;
 }
 
@@ -233,12 +230,16 @@ footer {
   color: whitesmoke;
 }
 
-#prizes, #prizes h2, #rules, #rules h2, #judges, #judges h2 {
+#prizes, #rules, #sponsors {
   background-color: #ffd54f;
   margin-bottom: 0;
 }
 
-#home, #problems, #problems h2, #sponsors, #sponsors h2 {
+#problems h1, #sponsors h1, #about h1, #prizes h1, #rules h1, #judges h1 {
+  margin-bottom: 0;
+}
+
+#home, #problems, #judges {
   background-color: #000;
   margin-bottom: 0;
   color: #ff0;
