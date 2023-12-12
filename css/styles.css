@@ -58,7 +58,7 @@
 
 .about{
   background-color: #000;
-  color: yellow; 
+  color: #5d8aa8; 
   text-align: justify;
   padding-left: 50px;
   padding-right: 50px;
@@ -110,11 +110,11 @@ top: 60px;
 
 #faq {
   background-color: #000;
-  color: #ff0;
+  color: #5d8aa8;
 }
 
 #faq h1, h2, h3, h4, h5, h6 {
-  color: #ff0;
+  color: #5d8aa8;
 }
 
 #faq a, #faq a:hover, #faq a:focus, #faq a:active {
@@ -185,9 +185,9 @@ top: 60px;
   width: 20px;
   height: 20px;
   background-color: transparent;
-  color: #ff0;
+  color: #5d8aa8;
   text-align: center;
-  border: 1px solid #ff0;
+  border: 1px solid #5d8aa8;
   border-radius: 50%;
   line-height: 100%;
   content: "+";
@@ -208,7 +208,7 @@ top: 60px;
 
 #faq .accordion .card .card-header h5 button[aria-expanded="true"]:after {
   content: "-";
-  color: #ff0;
+  color: #5d8aa8;
   /* background-image: -webkit-linear-gradient(-180deg, #5e7eff 0%, #ff5f74 30%, #a85fff 100%); */
 }
 
@@ -231,8 +231,9 @@ footer {
 }
 
 #prizes, #rules, #sponsors {
-  background-color: #ffd54f;
+  background-color: #5d8aa8;
   margin-bottom: 0;
+  color: whitesmoke;
 }
 
 #problems h1, #sponsors h1, #about h1, #prizes h1, #rules h1, #judges h1 {
@@ -242,7 +243,7 @@ footer {
 #home, #problems, #judges {
   background-color: #000;
   margin-bottom: 0;
-  color: #ff0;
+  color: #75bbe9;
 }
 
 .nav.navbar-nav.navbar-right li a {
